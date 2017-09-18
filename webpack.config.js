@@ -1,13 +1,13 @@
 
 module.exports = (env) => ({
     entry: [
-        './index.tsx'
+        './index.ts'
     ],
     output: {
         filename: 'bundle.js',        
     },
     resolve: {
-        extensions: ['.ts', '.tsx', '.js']
+        extensions: ['.ts','.js']
     },
     module: {
         rules: [
